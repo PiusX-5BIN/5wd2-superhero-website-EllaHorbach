@@ -104,10 +104,10 @@ Voordat je je website voorziet van opmaak, ga je een ontwerp zoeken of maken. Zo
 
 | Term                      | Definitie |
 | ------------------------- | --------- |
-| CSS                       |           |
-| selector                  |           |
-| declaratie                |           |
-| opmaak                    |           |
+| CSS                       | CSS (Cascading Style Sheets) is de taal die een HTML document opmaakt. CSS zegt hoe HTML-elementen moeten worden weergegeven in de browser.          |
+| selector                  |  De selector duidt aan welke HTML elementen opmaak zullen krijgen.         |
+| declaratie                | De declaratie bestaat uit 1 of meerdere opmaakregels die tussen accolades worden geplaatst.          |
+| opmaak                    |   De opmaak draait rond hoe je wil dat en element er uit komt te zien. Voorbeelden hiervan zijn kleurgebruik, onderlijnen, vet, cursief,...        |
 | property                  |           |
 | property-value (waarde)   |           |
 | stylesheet                |           |
@@ -118,12 +118,12 @@ Voordat je je website voorziet van opmaak, ga je een ontwerp zoeken of maken. Zo
 | hover                     |           |
 | hexadecimale kleurwaarde  |           |
 | rgb kleurwaarde           |           |
-| font                      |           |
-| generic family            |           |
-| font family               |           |
-| serif                     |           |
-| sans-serif                |           |
-| monospace                 |           |
+| font                      | Een ander woord voor lettertype is font. Een lettertype is de manier waarop letters, leestekens en cijfers worden weergegeven. Elke font family hoort bij één generic family. Zo is:Elke font family hoort bij één generic family. Zo is: Arial een sans-serif lettertype en Times New Roman een een serif lettertype|
+| generic family            | Voorbeelden van een generic family zijn sans-serif, serif, …         |
+| font family               | Voorbeelden van een font family zijn Arial, Times New Roman, …          |
+| serif                     |   Dit zijn de lettertypes met kleine uiteindes aan elke letter. Font families hierin zijn: Times New Roman en Georgia.      |
+| sans-serif                | Dit zijn de lettertypes zonder (sans in het frans) kleine uiteindes aan elke letter. Font families hierin zijn: Arial en Calibri.       |
+| monospace                 |  Dit zijn de lettertypes waarvan elke letter exact evenveel ruimte inneemt op het scherm. Font families hierin zijn: Courier New en Roboto Mono.        |
 | box model                 |           |
 | padding                   |           |
 | border                    |           |
