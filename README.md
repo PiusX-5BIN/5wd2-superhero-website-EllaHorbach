@@ -108,28 +108,29 @@ Voordat je je website voorziet van opmaak, ga je een ontwerp zoeken of maken. Zo
 | selector                  |  De selector duidt aan welke HTML elementen opmaak zullen krijgen.         |
 | declaratie                | De declaratie bestaat uit 1 of meerdere opmaakregels die tussen accolades worden geplaatst.          |
 | opmaak                    |   De opmaak draait rond hoe je wil dat en element er uit komt te zien. Voorbeelden hiervan zijn kleurgebruik, onderlijnen, vet, cursief,...        |
-| property                  |           |
-| property-value (waarde)   |           |
-| stylesheet                |           |
-| externe stylesheet        |           |
-| *.css                     |           |
-| selector                  |           |
-| conflicterende stijlregel |           |
-| hover                     |           |
-| hexadecimale kleurwaarde  |           |
-| rgb kleurwaarde           |           |
+| property                  | Een opmaakregel bestaat uit een property en waarde en eindigt met een puntkomma. |
+| property-value (waarde)   |  Property-value is de waarde dat je geeft aan een property. Bijvoorbeeld bij text-align kan je de waarde center meegeven waardoor de tekst wordt gecentreerd.         |
+| stylesheet                |Een interne stylesheet kan worden gebruikt als één enkele HTML-pagina een unieke stijl heeft. De interne stijl wordt gedefinieerd in het style-element, in het element head.           |
+| externe stylesheet        | Met een externe stylesheet kan het uiterlijk van een hele website veranderd worden door slechts één bestand te wijzigen. Een externe stylesheet is een manier om CSS code in een apart bestand te plaatsen, zodat HTML en CSS code grotendeels gescheiden blijft. Elke pagina die de stijlregels in dit bestand gebruikt moet een verwijzing naar de externe stylesheet bevatten in het link-element. Het link-element wordt geplaatst binnen in het element head.   |
+| *.css                     |   De * selector wordt gebruikt om stijlregels toe te passen op alle elementen. Wil je dat alle elementen op je website een bepaald lettertype gebruiken, kan je hiervoor de * selector gebruiken.        |
+| selector                  | De Selector selecteert welke HTML elementen worden aangepast door CSS. Een CSS selector kan bijvoorbeeld alle <p> elementen selecteren, zodat CSS de tekstkleur daarvan kan aanpassen.          |
+| conflicterende stijlregel |   Stijlregels kunnen soms conflicteren: Wanneer je een div element van de klasse “content” hebt voorzien en een ID “koptekst” hebt gegeven, kan het wel eens gebeuren dat verschillende selectors dezelfde stijlregels proberen toe te passen. Het is daarom belangrijk om te weten welke selector voorrang krijgt.De algemene regel is: hoe specifieker de selector, hoe meer voorrang. De selectors die we tot nu toe bekeken hebben hebben hun voorrang als volgt: 1. De ID selector overschrijft alle andere stijlregels. 2. De Class selector overschrijft alle stijlregels, behalve die van de ID selector. 3. De element selector volgt na de Class selector. 4. De * selector wordt enkel aan het einde toegevoegd, als alle andere stijlregels zijn toegepast. Wanneer twee selectors even specifiek zijn geldt de onderste stijlregel in de css code.        |
+| hover                     |Een hover is één van de State selectors die je moet gebruiken bij hyperlinks. De hover state zorgt ervoor dat je bijvoorbeeld het gebied waar de gebruiker met zijn muis over staat een kleur kan geven.           |
+| hexadecimale kleurwaarde  |  Kleuren kunnen ook worden samengesteld met behulp van hexadecimale kleurwaarden in de vorm: #RRGGBB, waarbij RR (rood), GG (groen) en BB (blauw) hexadecimale waardes zijn tussen 00 en FF (hetzelfde als de decimale waardes 0-255). HEX-waarden zijn niet hoofdlettergevoelig: #ff0000 is hetzelfde als #FF0000.         |
+| rgb kleurwaarde           |RGB-waardes worden samengesteld met behulp van deze formule: RGB (rood, groen, blauw);Elke parameter (rood, groen, blauw) bepaald de intensiteit van de kleur met een waarde tussen 0 en 255.           |
 | font                      | Een ander woord voor lettertype is font. Een lettertype is de manier waarop letters, leestekens en cijfers worden weergegeven. Elke font family hoort bij één generic family. Zo is:Elke font family hoort bij één generic family. Zo is: Arial een sans-serif lettertype en Times New Roman een een serif lettertype|
 | generic family            | Voorbeelden van een generic family zijn sans-serif, serif, …         |
 | font family               | Voorbeelden van een font family zijn Arial, Times New Roman, …          |
 | serif                     |   Dit zijn de lettertypes met kleine uiteindes aan elke letter. Font families hierin zijn: Times New Roman en Georgia.      |
 | sans-serif                | Dit zijn de lettertypes zonder (sans in het frans) kleine uiteindes aan elke letter. Font families hierin zijn: Arial en Calibri.       |
 | monospace                 |  Dit zijn de lettertypes waarvan elke letter exact evenveel ruimte inneemt op het scherm. Font families hierin zijn: Courier New en Roboto Mono.        |
-| box model                 |           |
-| padding                   |           |
-| border                    |           |
-| margin                    |           |
-| width                     |           |
-| height                    |           |
+| box model                 |  Het CSS Box Model is eigenlijk gewoon een rechthoek dat rond elk HTML element wordt geplaatst. Dit rechthoek bevat: inhoud, padding, border en margin         |
+| inhoud |      De binnenkant van het rechthoek. Hierin wordt de inhoud (tekst, afbeelding, etc.) getoond van het HTML element.     |
+| padding                   |    de ruimte rondom de inhoud, aan de binnenkant van de rand.       |
+| border                    | De lijn die kan getekend worden rondom een HTML element. Dit is de ruimte tussen padding en margin.          |
+| margin                    |    De ruimte rondom het volledige HTML element. Deze ruimte zorgt ervoor dat er ruimte is tussen dit en andere HTML elementen.        |
+| width                     |     De breedte van de content van het HTML element. Standaard is de breedte van een element dus width + padding + border (+ margin).      |
+| height                    |     De hoogte van de content van het HTML element. Standaard is de hoogte van een element dus height + padding + border (+ margin).      |
 
 
 ## 📚 Bronnen
