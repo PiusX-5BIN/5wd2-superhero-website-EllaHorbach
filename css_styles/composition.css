@@ -1,34 +1,25 @@
-#site-container {
-	display: grid;
-	grid-template-columns: 2fr 1fr 1fr;
-	grid-template-rows: auto 1fr 3fr;
-	Grid-template-areas: 
-		"title title title"
-		"main header header"
-		"main menu footer";
+body{
+    font-size: 17px;
 }
 
-#site-container>header {
-	grid-area: header;
-	background-color: magenta;
+#achtergrond{
+    margin-left: 0px;
+    margin-top: 0px;
+    
+}
+h1{
+    text-align: center;
+    font-family: serif;
+    
+    
+    
+    
+
+           
 }
 
-#title {
-	grid-area: title;
-	background-color: blue;
+footer{
+    font-size: 1.3em;
+    text-align: center;
 }
 
-#site-container>nav {
-	grid-area: menu;
-	background-color: orange;
-}
-
-#site-container>article {
-	grid-area: main;
-	background-color: green;
-}
-
-#site-container>footer {
-	grid-area: footer;
-	background-color: red;
-}
