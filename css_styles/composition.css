@@ -40,11 +40,17 @@ h1 {
 
 
 
-ul {
-    
-    margin-left: 150px;
-    top: 50px;
-}
+
+
+section {
+
+display: flex;
+
+} 
+
+profiel-foto img {
+max-width: 100%; }
+
 
 
 #info-gg { 
