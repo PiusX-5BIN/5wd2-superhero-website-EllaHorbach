@@ -1,47 +1,48 @@
-body{
+body {
     font-size: 11px;
 }
 
-#achtergrond{
+#achtergrond {
     margin-left: 0px;
     margin-top: 0px;
     margin-right: 0px;
-    
-    
+
+
 }
-#banner{
-    position:absolute;
+
+#banner {
+    position: absolute;
     top: 20px;
     margin-left: 20px;
-    
-    
-    
+
+
+
 }
 
 
-h1{
+h1 {
     text-align: center;
     font-family: serif;
     position: absolute;
     left: 170px;
     top: 135px;
-    
-    
-    
-    
 
-           
+
+
+
 }
-#profiel-foto{
+
+#profiel-foto {
     margin-left: 0%;
+
 }
-#gegevens{
-    left: 300px;
+
+#gegevens {
+    left: 200px;
 }
 
 
-footer{
+footer {
     font-size: 1.3em;
     text-align: center;
 }
-
