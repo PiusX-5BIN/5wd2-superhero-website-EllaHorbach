@@ -1,5 +1,5 @@
 body {
-    font-size: 11px;
+    font-size: 13px;
 }
 
 #achtergrond {
@@ -12,8 +12,8 @@ body {
 
 #banner {
     position: absolute;
-    top: 20px;
-    margin-left: 20px;
+    top: 90px;
+    margin-left: 0px;
 
 
 
@@ -24,8 +24,9 @@ h1 {
     text-align: center;
     font-family: serif;
     position: absolute;
-    left: 170px;
-    top: 135px;
+    margin-left: 5px;
+    left: 30px;
+    top: 195px;
 
 
 
@@ -37,10 +38,18 @@ h1 {
 
 }
 
-#gegevens {
-    left: 200px;
+
+
+ul {
+    
+    margin-left: 150px;
+    top: 50px;
 }
 
+
+#info-gg { 
+text-align: right;
+}
 
 footer {
     font-size: 1.3em;
