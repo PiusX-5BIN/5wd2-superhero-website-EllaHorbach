@@ -65,7 +65,9 @@ text-align: right;
 .vrienden img{
     border-radius: 50% 20% / 10% 40%;
 }
-
+.comics img{
+    border-radius: 30px;
+}
 h2{
     text-align: center;
 }
