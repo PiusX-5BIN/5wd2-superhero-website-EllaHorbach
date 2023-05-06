@@ -27,19 +27,28 @@
 
     <div id="site-container">
         <header>
-            <figure id="achtergrond"><img src="afbeeldingen/achtergrond.jpg" width="540px" height="300px"
+            <figure id="achtergrond"><img src="afbeeldingen/achtergrond.jpg" width="685px" height="300px"
                     alt="picture of New York">
             </figure>
             <figure id="banner"><img src="afbeeldingen/banner.png" width="525px"></figure>
             <h1>"With great power comes great responsibility"</h1>
+        
+        
+            <nav class="menu">
+                <ul>
+                    <li><a href="#profiel_nav">profiel</a></li> 
+                    <li><a href="#vijanden_nav">vijanden</a></li>  
+                    <li><a href="#vrienden_nav">vrienden</a></li> 
+                    <li><a href="#comics_nav">comics</a></li> 
+                
+                </ul>
+            </nav>
         </header>
-        <br>
-        <br>
         <article class="profiel">
             <section>
-                <h2>Spider-Man zijn profiel</h2>
+                <h2 id="profiel_nav">Spider-Man zijn profiel</h2>
             </section>
-            <section>
+            <section id="profiel_gegevens">
                 <figure id="profiel-foto"><img src="afbeeldingen/profiel.png" width="150px"></figure>
                 <section></section>
                 <ul class="gegevens">
@@ -61,9 +70,9 @@
             </section>
         </article>
 
-        <article class="vijanden">
+        <article class="getuigenis">
             <section>
-                <h2>Spider-Man zijn vijanden</h2>
+                <h2 id="vijanden_nav">Spider-Man zijn vijanden</h2>
             </section>
 
             <section>
@@ -81,9 +90,9 @@
             </section>
         </article>
 
-        <article class="vrienden">
+        <article class="getuigenis">
             <section>
-                <h2> spiderman zijn vrienden</h2>
+                <h2 id="vrienden_nav"> spiderman zijn vrienden</h2>
             </section>
 
             <section>
@@ -108,7 +117,7 @@
         </article>
         <article class="comics">
             <section>
-                <h2>Spider-Man zijn comics</h2>
+                <h2 id="comics_nav">Spider-Man zijn comics</h2>
             </section>
 
             <section>
@@ -116,15 +125,21 @@
             </section>
 
             <section>
-                <p> Spider-Man life story, March 20, 2019</p>
+                <p> Spider-Man life story
+                    <br>
+                     20 March 2019
+                </p>
             </section>
-            <br>
+            
             <section>
                 <figure><img src="afbeeldingen/spider-man_life_story_2.jpg" width="150px"></figure>
             </section>
 
-            <section>
-                <p>Spider-Man life story 2, April 17, 2019</p>
+           <section>
+                <p>Spider-Man life story 2
+                    <br>
+                    17 April 2019
+                </p>
             </section>
             <br>
             <section>
@@ -132,12 +147,15 @@
             </section>
 
             <section>
-                <p>Spider-Man life story 3, May 15, 2019</p>
+                <p>Spider-Man life story 3
+                    <br>
+                    15 May 2019
+                </p>
             </section>
         </article>
         <br>
         <footer>
-            <p>More about Spider-Man of other comics? <a href="https://marvel.fandom.com/wiki/Spider-Man_Comic_Books">
+            <p>More about Spider-Man of other comics? <a id ="footer_link" href="https://marvel.fandom.com/wiki/Spider-Man_Comic_Books">
                     take
                     a look here</a> </p>
         </footer>

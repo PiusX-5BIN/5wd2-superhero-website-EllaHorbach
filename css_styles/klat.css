@@ -17,3 +17,50 @@ footer{
     font-size: 1.3em;
     text-align: center;
 }
+
+
+
+.vijanden{
+    background-color: rgb(172, 155, 155) ;
+}
+
+
+
+.vrienden{
+    background-color: rgb(212, 189, 189) ;
+}
+
+
+
+body{
+    background-color: rgb(236, 236, 236) ;
+}
+
+
+
+
+.vijanden{
+    background-color: rgb(1, 0, 7) ;
+}
+
+
+
+.vrienden{
+    background-color: rgb(69, 13, 3) ;
+}
+
+
+.vrienden{
+    background:darkred ;
+}
+
+
+
+.vijanden{
+    background-color: rgb(11, 6, 54) ;
+}
+
+
+header{
+    margin-bottom: 20px;
+}
