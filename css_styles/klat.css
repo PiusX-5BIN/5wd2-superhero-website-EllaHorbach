@@ -88,3 +88,110 @@ header{
 body{
     background-color: rgb(236, 236, 236) ;
 }
+
+
+@media all and (min-width: 700px) {
+    header{
+    
+    }
+    h2{
+        font-size: 3.5em;
+    }
+    p{
+        font-size: 2.2em;
+    }
+}
+
+
+
+
+
+
+
+#site-container {
+  
+ 
+    display: grid;
+      grid-template-rows: repeat(7, 1fr);
+    }
+
+
+
+    @media screen and (max-width: 700px) {
+        #achtergrond{
+            max-width: 100px;
+        }
+      }
+
+
+      .container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+
+
+      #achtergrond {
+        margin: auto;
+    
+       
+    }
+    
+    #banner {
+        width: 1200px;
+        height: 200px;
+        margin: auto;
+        position: absolute;
+        top: 90px;
+        left: 75px;
+        
+    
+    
+    
+    }
+    
+    
+    h1 {
+        text-align: center;
+        font-family: serif;
+        position: absolute;
+        margin-left: 5px;
+        left: 145px;
+        top: 215px;
+    
+    
+    
+    
+    }
+    
+    header{
+        margin-bottom: 0px;
+    }
+    * {
+        padding: 0;
+        margin: 0;
+        font-family: Trebuchet MS;
+       }
+    
+
+
+
+
+
+
+
+       #banner {
+
+   
+    
+        width: 1200px;
+        height: 200px;
+        margin: auto;
+        position: absolute;
+        
+        
+        
+        margin: 0 auto;
+        margin-top: 50px;
+    
+    
+    }

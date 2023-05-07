@@ -1,47 +1,82 @@
+
 body {
     font-size: 10px;
 }
-
 #achtergrond {
     margin: auto;
-
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
    
 }
 
+
+#banner img{
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+
 #banner {
+
+   
+    
+   
     margin: auto;
     position: absolute;
-    top: 90px;
-    left: 75px;
     
-
+    
+    
+    margin: 0 auto;
+    margin-top: 50px;
 
 
 }
-
 
 h1 {
     text-align: center;
     font-family: serif;
     position: absolute;
     margin-left: 5px;
-    left: 145px;
-    top: 215px;
-
-
+    left: 165px;
+    
+    margin-top: 220px;
+    color: black;
 
 
 }
 
 header{
-    margin-bottom: 0px;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-bottom: 50px;
 }
 * {
     padding: 0;
     margin: 0;
     font-family: Trebuchet MS;
    }
-
+.menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .menu li {
+    display: inline-block;
+    margin: 0 20px;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font-size: 18px;
+  }
 .menu {
     margin: auto;
     padding: 5px;
@@ -67,8 +102,9 @@ header{
     color: #FFF;
     border-bottom: 3px solid #FFF;
    }
+ 
 .profiel{
-    margin-top: 50px;
+    margin-top: 300px;
     margin-bottom: 50px;
 }
 
@@ -136,3 +172,62 @@ footer {
     border-bottom: 3px solid black;
     
 }
+
+
+
+
+
+  
+
+
+
+  
+
+  
+  /* media query voor desktop-formaat */
+  
+  @media only screen and (min-width: 992px) {
+    #achtergrond img {
+      width: 100%;
+      height: auto;
+    }
+  
+    #banner img {
+     margin-left: 200px;
+     margin-top: 200px;
+     width: 100%;
+    }
+    
+
+    .menu {
+      display: flex;
+      justify-content: center;
+    }
+  
+    .menu li {
+      margin: 0 30px;
+    }
+  
+    h1 {
+      top: 290px;
+      left: 350px;
+      font-size: 45px;
+    }
+    .profiel{
+        margin-top: 700px;
+        margin-bottom: 50px;
+    }
+
+    h2{
+        font-size: 4em;
+    }
+    p{
+        font-size: 2.5em;
+    }
+    ul{
+        font-size: 2.5em
+    }
+    img{
+        width: 250px;
+    }
+  }
