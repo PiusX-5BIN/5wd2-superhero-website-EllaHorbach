@@ -82,9 +82,9 @@ margin-right: 20px;
 
 } 
 
-profiel-foto img {
+.profiel img {
     
- 
+    border:4mm ridge rgb(10, 1, 1);
     max-width: 100%; 
 }
 
@@ -121,6 +121,7 @@ h2{
 p{
     font-size: 1.5em;
     font-family: serif;
+    margin-top: 20px;
 }
 
 
